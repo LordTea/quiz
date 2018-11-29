@@ -14,7 +14,7 @@ body {
     background-color: white;
 }
 
-.siliconValley {
+.notSiliconValley {
     width: 50%;
     height:50%;
 }
@@ -23,7 +23,7 @@ body {
     font-size: 20px;
 }
 
-#tomImg {
+#benImg {
     border-radius: 50%;
     width: 50px;
 }
@@ -33,7 +33,7 @@ a {
     font-weight: bold;
 }
 
-#tom {
+#ben {
     color: grey;
 }
 
@@ -54,4 +54,8 @@ button {
 body{
 
     margin-left:20px;
+}
+
+h2 {
+    font-size:30px;
 }
