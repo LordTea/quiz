@@ -7,9 +7,9 @@ Make sure to check off your items as you complete them. [ ] => [x]
 
 ## Day 1
 ### Planning
-- [x] Review your Starter Code and make sure you understand what code has already been written for you.
+- [ ] Review your Starter Code and make sure you understand what code has already been written for you.
 ### Set-Up
-- [x] Go to the repository at https://github.com/ScriptEdcurriculum/quiz
+- [ ] Go to the repository at https://github.com/ScriptEdcurriculum/quiz
 - [ ] Fork this repository to your github account and clone it to a new workspace
 - [ ] Add, commit, and push your changes
 - [ ] Make your site live on gh-pages
