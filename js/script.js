@@ -149,22 +149,22 @@ function noAnswer(qnum){
 function giveResults(Iscore,Tscore){
     var returns;
     if (Iscore >= -4 && Iscore <= 4){
-        if (Iscore >= 2){
+        if (Iscore >= 2 && Iscore <=4){
             returns = "a";
-        } else if (Iscore >= -1) {
+        } else if (Iscore >= -1 && Iscore <2) {
             returns = "b";
-        } else if (Iscore >= -4) {
-            returns = "C";
+        } else if (Iscore >= -4 && Iscore <-1) {
+            returns = "c";
         }
     } else {
         return;
     }
     if (Tscore >= -4 && Tscore <= 4){
-        if (Tscore >= 2){
+        if (Tscore >= 2 && Tscore <=4){
             returns = returns + "A";
-        } else if (Tscore >= -1) {
+        } else if (Tscore >= -1 && Tscore < 2) {
             returns = returns + "B";
-        } else if (Tscore >= -4) {
+        } else if (Tscore >= -4 && Tscore <-1) {
             returns = returns + "C";
         }
     } else {
